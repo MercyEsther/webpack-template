@@ -1,6 +1,7 @@
 ## Webpack-template
 ***
-#### 创建package.json并安装需要的模块
+
+## 创建package.json并安装需要的模块
 
   - 命令行在项目根目录 ``> npm init``，该操作将创建package.json文件
   - 安装需要的模块。
@@ -85,7 +86,7 @@ module.exports = {
 ```
 
 ***
-#### 配置webpack.config.js
+## 配置webpack.config.js
 
 ```javascript
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -141,7 +142,7 @@ module.exports = {
 ```
 ***
 
-#### 开始项目开发
+## 开始项目开发
 - 打开package.json , 更改"scripts"配置 ， 使命令行启动更加方便
 ```json
 "scripts": {
